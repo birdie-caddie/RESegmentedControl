@@ -24,7 +24,7 @@ open class RESegmentedControl: UIControl {
     }()
 
     /// Collection view that displays a list of segment's text and image
-    private lazy var collectionView: UICollectionView = {
+    public lazy var collectionView: UICollectionView = {
 
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: collectionViewFlow)
 
@@ -48,7 +48,7 @@ open class RESegmentedControl: UIControl {
     }()
 
     /// Collection view that displays a list of segment's backgrounds with separator
-    private lazy var collectionViewBackground: UICollectionView = {
+    public lazy var collectionViewBackground: UICollectionView = {
 
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: collectionViewFlow)
 
